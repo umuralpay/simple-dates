@@ -16,11 +16,11 @@ Dates is a simple, lightweight date manipulator written in javascript
 
 ## Installation
 
-``` npm install dates ```
+``` npm install @umuralpay/js-dates ```
 
 or
 
-``` yarn add dates ```
+``` yarn add @umuralpay/js-dates ```
 
 ## Usage
 
