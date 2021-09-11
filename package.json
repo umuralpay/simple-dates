@@ -1,6 +1,6 @@
 {
   "name": "@umuralpay/js-dates",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple, lightweight date manipulator for javascript",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umuralpay/dates.git"
+    "url": "git+https://github.com/umuralpay/js-dates.git"
   },
   "keywords": [
     "date",
@@ -27,9 +27,9 @@
   "author": "Umur Alpay <umuralpay@outlook.com> (https://umuralpay.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/umuralpay/dates/issues"
+    "url": "https://github.com/umuralpay/js-dates/issues"
   },
-  "homepage": "https://github.com/umuralpay/dates#readme",
+  "homepage": "https://github.com/umuralpay/js-dates#readme",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "jest": "^27.1.1",
