@@ -1,4 +1,4 @@
-# Dates
+# JS-Dates
 ## _Simple, lightweight javascript library for manipulating dates_
 
 [![Build Status](https://travis-ci.org/umuralpay/dates.svg?branch=main)](https://travis-ci.org/umuralpay/dates)
