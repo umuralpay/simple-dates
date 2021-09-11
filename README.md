@@ -9,9 +9,10 @@ Dates is a simple, lightweight date manipulator written in javascript
 ## Features
 
 - Getting UTC date
-- Ability to add "x" amount of hours, minutes and seconds to dates
-- Comparing dates
-- Formatting dates
+- Ability to add "x" amount of hours, minutes and seconds to dates (TODO)
+- Comparing dates (TODO)
+- Formatting dates (TODO)
+- Locale support (TODO)
 
 ## Installation
 
