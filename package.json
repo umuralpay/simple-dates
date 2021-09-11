@@ -1,5 +1,5 @@
 {
-  "name": "js-dates",
+  "name": "@umuralpay/js-dates",
   "version": "1.0.0",
   "description": "A simple, lightweight date manipulator for javascript",
   "main": "index.js",
