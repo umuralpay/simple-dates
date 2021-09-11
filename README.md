@@ -25,7 +25,7 @@ or
 ## Usage
 
 ```javascript
-import {getUTCDate} from "dates"; 
+import {getUTCDate} from "@umuralpay/js-dates"; 
 const date = getUTCDate(); // if epoch needed getUTCDate(true);
 ```
 ## License
