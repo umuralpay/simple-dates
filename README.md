@@ -42,13 +42,13 @@ Adding Minutes To Date
 
 ```javascript
 import {addMinutes} from "@umuralpay/js-dates"; 
-const date = addMinutes(30); // hours: number, date = new Date(), utc = false, epoch = false
+const date = addMinutes(30); // mins: number, date = new Date(), utc = false, epoch = false
 ```
 
 Adding Seconds To Date
 ```javascript
 import {addSeconds} from "@umuralpay/js-dates"; 
-const date = addSeconds(20); // hours: number, date = new Date(), utc = false, epoch = false
+const date = addSeconds(20); // secs: number, date = new Date(), utc = false, epoch = false
 ```
 
 Note: if epoch is true utc parameter is ignored 
