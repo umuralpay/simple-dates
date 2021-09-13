@@ -1,7 +1,7 @@
 # JS-Dates
 ## _Simple, lightweight javascript library for manipulating dates_
 
-[![Build Status](https://travis-ci.com/umuralpay/dates.svg?branch=main)](https://travis-ci.com/umuralpay/dates)
+[![Build Status](https://api.travis-ci.com/umuralpay/js-dates.svg?branch=main)](https://api.travis-ci.com/umuralpay/js-dates.svg?branch=main)
 
 Dates is a simple, lightweight & typed date manipulator
 
