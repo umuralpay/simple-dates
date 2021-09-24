@@ -27,6 +27,12 @@ export const addSeconds = (secs: number, date = new Date(), utc = false, epoch =
   return returnDate(date, utc, epoch)
 }
 
+export const isLater = (base: Date, compare: Date) => {
+  const date1 = base.getTime();
+  const date2 = compare.getTime();
+  return date1 > date2;
+}
+
 const returnDate = (date: Date, utc: boolean, epoch:boolean) => {
   if(epoch) {
     return date.getTime();

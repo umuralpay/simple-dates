@@ -10,7 +10,7 @@ Dates is a simple, lightweight & typed date manipulator
 
 - Getting UTC date
 - Ability to add "x" amount of hours, minutes and seconds to dates 
-- Comparing dates (TODO)
+- Comparing dates
 - Formatting dates (TODO)
 - Locale support (TODO)
 
@@ -53,6 +53,16 @@ const date = addSeconds(20); // secs: number, date = new Date(), utc = false, ep
 
 Note: if epoch is true utc parameter is ignored 
 
+Comparing Dates
+```javascript
+import {isLater} from "@umuralpay/js-dates";
+
+const date1 = new Date();
+const date2 = new Date();
+date2.setMinutes(date2.getMinutes() + 30);
+
+console.log(isLater(date1, date2)); // returns false
+
 ## License
 
-MIT
+ISC
