@@ -1,9 +1,9 @@
-# JS-Dates
+# Simple Dates
 ## _Simple, lightweight javascript library for manipulating dates_
 
-[![Build Status](https://api.travis-ci.com/umuralpay/js-dates.svg?branch=main)](https://api.travis-ci.com/umuralpay/js-dates.svg?branch=main)
+[![Build Status](https://api.travis-ci.com/umuralpay/simple-dates.svg?branch=main)](https://api.travis-ci.com/umuralpay/simple-dates.svg?branch=main)
 
-Dates is a simple, lightweight & typed date manipulator
+Simple Dates is lightweight & typed date manipulator
 
 
 ## Features
@@ -16,38 +16,38 @@ Dates is a simple, lightweight & typed date manipulator
 
 ## Installation
 
-``` npm install @umuralpay/js-dates ```
+``` npm install simple-dates ```
 
 or
 
-``` yarn add @umuralpay/js-dates ```
+``` yarn add simple-dates ```
 
 ## Usage
 
 Getting UTC Date
 
 ```javascript
-import {getUTCDate} from "@umuralpay/js-dates"; 
+import {getUTCDate} from "simple-dates"; 
 const date = getUTCDate(); // if epoch needed getUTCDate(true);
 ```
 
 Adding Hours To Date
 
 ```javascript
-import {addHours} from "@umuralpay/js-dates"; 
+import {addHours} from "simple-dates"; 
 const date = addHours(1); // hours: number, date = new Date(), utc = false, epoch = false
 ```
 
 Adding Minutes To Date
 
 ```javascript
-import {addMinutes} from "@umuralpay/js-dates"; 
+import {addMinutes} from "simple-dates"; 
 const date = addMinutes(30); // mins: number, date = new Date(), utc = false, epoch = false
 ```
 
 Adding Seconds To Date
 ```javascript
-import {addSeconds} from "@umuralpay/js-dates"; 
+import {addSeconds} from "simple-dates"; 
 const date = addSeconds(20); // secs: number, date = new Date(), utc = false, epoch = false
 ```
 
@@ -55,7 +55,7 @@ Note: if epoch is true utc parameter is ignored
 
 Comparing Dates
 ```javascript
-import {isLater} from "@umuralpay/js-dates";
+import {isLater} from "simple-dates";
 
 const date1 = new Date();
 const date2 = new Date();

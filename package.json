@@ -1,6 +1,6 @@
 {
   "name": "simple-dates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, lightweight date manipulator for javascript",
   "main": "lib/index.js",
   "scripts": {
