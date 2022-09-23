@@ -62,7 +62,7 @@ const date2 = new Date();
 date2.setMinutes(date2.getMinutes() + 30);
 
 console.log(isLater(date1, date2)); // returns false
-
+```
 ## License
 
 ISC
