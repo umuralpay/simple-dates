@@ -1,8 +1,6 @@
 # Simple Dates
 ## _Simple, lightweight javascript library for manipulating dates_
 
-[![Build Status](https://api.travis-ci.com/umuralpay/simple-dates.svg?branch=main)](https://api.travis-ci.com/umuralpay/simple-dates.svg?branch=main)
-
 Simple Dates is lightweight & typed date manipulator
 
 
